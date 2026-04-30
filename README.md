@@ -152,8 +152,7 @@ vardhaman = {
   <img src="https://raw.githubusercontent.com/VARDHAMANPATEL23/VARDHAMANPATEL23/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
-> ⚙️ *To enable the snake animation, add this GitHub Action to your profile repo:*
-> `.github/workflows/snake.yml` — [Generate Snake Action](https://github.com/Platane/snk)
+
 
 ---
 
