@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+
+    <!-- Base background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0f0c29"/>
+      <stop offset="50%"  stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+
+    <!-- Horizontal glow bar (used top + bottom) -->
+    <linearGradient id="hglow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#a78bfa" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Moving scan-pulse gradient -->
+    <linearGradient id="scanpulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="48%"  stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#c4b5fd" stop-opacity="0.18"/>
+      <stop offset="52%"  stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glow filter for corner brackets & text -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Soft blur filter for glow lines -->
+    <filter id="softblur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+    </filter>
+
+    <!-- Clip so animated mesh doesn't bleed outside -->
+    <clipPath id="clip">
+      <rect width="900" height="200"/>
+    </clipPath>
+
+    <!-- The grid tile: one cell is 50×50 -->
+    <!-- We define horizontal + vertical lines as a pattern so we can animate the whole group -->
+  </defs>
+
+  <!-- ── Background ── -->
+  <rect width="900" height="200" fill="url(#bg)"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!--  ANIMATED MESH  (clipped)                 -->
+  <!-- ══════════════════════════════════════════ -->
+  <g clip-path="url(#clip)">
+
+    <!--
+      We draw a grid that is wider & taller than the viewport (950×250)
+      and translate it so it starts slightly off-canvas, then animate
+      it scrolling diagonally (right→left, top→bottom).
+      Full cycle moves exactly one cell (50px) so the loop is seamless.
+    -->
+    <g opacity="0.13">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0,0"
+        to="50,50"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+      <!-- Horizontal lines: from -50 to 250 in steps of 50, spanning width+50 -->
+      <line x1="-50" y1="-50"  x2="950" y2="-50"  stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="-50" y1="0"    x2="950" y2="0"    stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="-50" y1="50"   x2="950" y2="50"   stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="-50" y1="100"  x2="950" y2="100"  stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="-50" y1="150"  x2="950" y2="150"  stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="-50" y1="200"  x2="950" y2="200"  stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="-50" y1="250"  x2="950" y2="250"  stroke="#a78bfa" stroke-width="0.8"/>
+
+      <!-- Vertical lines -->
+      <line x1="-50"  y1="-50" x2="-50"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="0"    y1="-50" x2="0"    y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="50"   y1="-50" x2="50"   y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="100"  y1="-50" x2="100"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="150"  y1="-50" x2="150"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="200"  y1="-50" x2="200"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="250"  y1="-50" x2="250"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="300"  y1="-50" x2="300"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="350"  y1="-50" x2="350"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="400"  y1="-50" x2="400"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="450"  y1="-50" x2="450"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="500"  y1="-50" x2="500"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="550"  y1="-50" x2="550"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="600"  y1="-50" x2="600"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="650"  y1="-50" x2="650"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="700"  y1="-50" x2="700"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="750"  y1="-50" x2="750"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="800"  y1="-50" x2="800"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="850"  y1="-50" x2="850"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="900"  y1="-50" x2="900"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+      <line x1="950"  y1="-50" x2="950"  y2="250" stroke="#a78bfa" stroke-width="0.8"/>
+    </g>
+
+    <!-- Intersection dot highlights at every other node — animated with the same transform -->
+    <g opacity="0.22">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0,0"
+        to="50,50"
+        dur="4s"
+        repeatCount="indefinite"/>
+      <!-- Row y=0 -->
+      <circle cx="0"   cy="0"   r="1.5" fill="#c4b5fd"/>
+      <circle cx="100" cy="0"   r="1.5" fill="#c4b5fd"/>
+      <circle cx="200" cy="0"   r="1.5" fill="#c4b5fd"/>
+      <circle cx="300" cy="0"   r="1.5" fill="#c4b5fd"/>
+      <circle cx="400" cy="0"   r="1.5" fill="#c4b5fd"/>
+      <circle cx="500" cy="0"   r="1.5" fill="#c4b5fd"/>
+      <circle cx="600" cy="0"   r="1.5" fill="#c4b5fd"/>
+      <circle cx="700" cy="0"   r="1.5" fill="#c4b5fd"/>
+      <circle cx="800" cy="0"   r="1.5" fill="#c4b5fd"/>
+      <circle cx="900" cy="0"   r="1.5" fill="#c4b5fd"/>
+      <!-- Row y=100 -->
+      <circle cx="0"   cy="100" r="1.5" fill="#c4b5fd"/>
+      <circle cx="100" cy="100" r="1.5" fill="#c4b5fd"/>
+      <circle cx="200" cy="100" r="1.5" fill="#c4b5fd"/>
+      <circle cx="300" cy="100" r="1.5" fill="#c4b5fd"/>
+      <circle cx="400" cy="100" r="1.5" fill="#c4b5fd"/>
+      <circle cx="500" cy="100" r="1.5" fill="#c4b5fd"/>
+      <circle cx="600" cy="100" r="1.5" fill="#c4b5fd"/>
+      <circle cx="700" cy="100" r="1.5" fill="#c4b5fd"/>
+      <circle cx="800" cy="100" r="1.5" fill="#c4b5fd"/>
+      <circle cx="900" cy="100" r="1.5" fill="#c4b5fd"/>
+      <!-- Row y=200 -->
+      <circle cx="0"   cy="200" r="1.5" fill="#c4b5fd"/>
+      <circle cx="100" cy="200" r="1.5" fill="#c4b5fd"/>
+      <circle cx="200" cy="200" r="1.5" fill="#c4b5fd"/>
+      <circle cx="300" cy="200" r="1.5" fill="#c4b5fd"/>
+      <circle cx="400" cy="200" r="1.5" fill="#c4b5fd"/>
+      <circle cx="500" cy="200" r="1.5" fill="#c4b5fd"/>
+      <circle cx="600" cy="200" r="1.5" fill="#c4b5fd"/>
+      <circle cx="700" cy="200" r="1.5" fill="#c4b5fd"/>
+      <circle cx="800" cy="200" r="1.5" fill="#c4b5fd"/>
+      <circle cx="900" cy="200" r="1.5" fill="#c4b5fd"/>
+    </g>
+
+    <!-- Diagonal scan pulse sweeping left→right across the full banner -->
+    <rect x="-900" y="0" width="900" height="200" fill="url(#scanpulse)" opacity="0.7">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="-900,0"
+        to="1800,0"
+        dur="3.5s"
+        repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Vignette: fade edges to black so the grid looks contained -->
+    <rect width="900" height="200"
+          fill="url(#bg)" opacity="0"
+          style="mask:none"/>
+    <!-- Left fade -->
+    <rect width="80" height="200" fill="url(#bg)" opacity="0.7"/>
+    <!-- Right fade -->
+    <rect x="820" width="80" height="200" fill="url(#bg)" opacity="0.7"/>
+    <!-- Top fade -->
+    <rect width="900" height="60" fill="url(#bg)" opacity="0.6"/>
+    <!-- Bottom fade -->
+    <rect y="140" width="900" height="60" fill="url(#bg)" opacity="0.6"/>
+
+  </g>
+  <!-- ══ end animated mesh ══ -->
+
+  <!-- ── Glowing edge lines ── -->
+  <!-- Top glow -->
+  <rect x="40" y="0"   width="820" height="1"   fill="url(#hglow)"/>
+  <rect x="40" y="1"   width="820" height="2"   fill="url(#hglow)" filter="url(#softblur)" opacity="0.6"/>
+  <!-- Bottom glow -->
+  <rect x="40" y="199" width="820" height="1"   fill="url(#hglow)"/>
+  <rect x="40" y="197" width="820" height="2"   fill="url(#hglow)" filter="url(#softblur)" opacity="0.6"/>
+
+  <!-- ── Corner bracket frames ── -->
+  <polyline points="0,45 0,0 45,0"       fill="none" stroke="#a78bfa" stroke-width="2.5" filter="url(#glow)"/>
+  <polyline points="855,0 900,0 900,45"  fill="none" stroke="#a78bfa" stroke-width="2.5" filter="url(#glow)"/>
+  <polyline points="0,155 0,200 45,200"  fill="none" stroke="#a78bfa" stroke-width="2.5" filter="url(#glow)"/>
+  <polyline points="855,200 900,200 900,155" fill="none" stroke="#a78bfa" stroke-width="2.5" filter="url(#glow)"/>
+
+  <!-- Mid-edge ticks -->
+  <line x1="0"   y1="100" x2="14"  y2="100" stroke="#a78bfa" stroke-width="2" opacity="0.7"/>
+  <line x1="886" y1="100" x2="900" y2="100" stroke="#a78bfa" stroke-width="2" opacity="0.7"/>
+
+  <!-- Corner diamonds -->
+  <polygon points="450,2 457,9 450,16 443,9"     fill="#a78bfa" filter="url(#glow)"/>
+  <polygon points="450,184 457,191 450,198 443,191" fill="#a78bfa" filter="url(#glow)"/>
+
+  <!-- ── Text ── -->
+  <text x="450" y="92"
+        font-family="'Courier New', Courier, monospace"
+        font-size="42" font-weight="bold" letter-spacing="6"
+        fill="#ffffff" text-anchor="middle" filter="url(#glow)">VARDHMAN PATEL</text>
+
+  <text x="450" y="126"
+        font-family="'Courier New', Courier, monospace"
+        font-size="13" letter-spacing="5"
+        fill="#a78bfa" text-anchor="middle">BUILDER · TINKERER · LINUX ENTHUSIAST</text>
+
+  <!-- Corner micro-labels -->
+  <text x="8"   y="16"  font-family="'Courier New',monospace" font-size="8" fill="#a78bfa" opacity="0.55">SYS://PROFILE</text>
+  <text x="892" y="16"  font-family="'Courier New',monospace" font-size="8" fill="#a78bfa" opacity="0.55" text-anchor="end">v2.0.26</text>
+  <text x="8"   y="193" font-family="'Courier New',monospace" font-size="8" fill="#a78bfa" opacity="0.55">UTC+05:30 · IN</text>
+  <text x="892" y="193" font-family="'Courier New',monospace" font-size="8" fill="#a78bfa" opacity="0.55" text-anchor="end">ONLINE</text>
+
+</svg>
