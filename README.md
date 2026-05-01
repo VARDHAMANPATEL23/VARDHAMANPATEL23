@@ -18,7 +18,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=600&lines=AI+%2B+IoT+Builder+%F0%9F%A4%96;Linux+Systems+Hacker+%F0%9F%90%A7;Computer+Vision+Enthusiast+%F0%9F%91%81%EF%B8%8F;Always+building+something+new+%F0%9F%94%A8" alt="Typing SVG" />
 </a>
 
-<br/><br/>
+<br/>
 
 [![GitHub followers](https://img.shields.io/github/followers/VARDHAMANPATEL23?label=Followers&style=for-the-badge&color=A78BFA&labelColor=0d1117)](https://github.com/VARDHAMANPATEL23)
 &nbsp;
@@ -28,11 +28,11 @@
 
 <br/>
 
-```
+<pre>
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃  ◈  SYSTEM IDENTITY                                                         ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
+</pre>
 
 ```python
 vardhaman = {
@@ -46,17 +46,17 @@ vardhaman = {
 
 <br/>
 
-```
+<pre>
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃  ◈  ACTIVE PROJECTS                                            [4 DEPLOYED] ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
+</pre>
 
-```
+<pre>
 ╔═[ PROJECT 01 ]══════════════════════════════════════════════════════════════╗
 ║  🪞  SMART MIRROR — IoT Information Hub                                     ║
 ╚═════════════════════════════════════════════════════════════════════════════╝
-```
+</pre>
 
 > *An IoT-based Smart Mirror that blends a traditional mirror with a digital display to show real-time updates like time, weather, and news — your morning briefing, built into your wall.*
 
@@ -68,11 +68,11 @@ vardhaman = {
 
 [![View Repo](https://img.shields.io/badge/View%20Repo-Smart%20Mirror-A78BFA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VARDHAMANPATEL23/Smart-Mirror)
 
-```
+<pre>
 ╔═[ PROJECT 02 ]══════════════════════════════════════════════════════════════╗
 ║  🔐  LINUX FACEID — Biometric Auth via PAM                                  ║
 ╚═════════════════════════════════════════════════════════════════════════════╝
-```
+</pre>
 
 > *A Linux PAM module that brings Face ID to your terminal. Enables facial authentication for `sudo` and GDM lockscreen using blink-based liveness detection to prevent spoofing.*
 
@@ -84,11 +84,11 @@ vardhaman = {
 
 [![View Repo](https://img.shields.io/badge/View%20Repo-Linux%20FaceId-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VARDHAMANPATEL23/Linux-FaceId)
 
-```
+<pre>
 ╔═[ PROJECT 03 ]══════════════════════════════════════════════════════════════╗
 ║  ⚡  LINUX AUTO UPDATER — One Script to Rule All                             ║
 ╚═════════════════════════════════════════════════════════════════════════════╝
-```
+</pre>
 
 > *A unified updater for Linux developers. Auto-detects your package manager (apt, dnf, pacman, etc.), Snap, Flatpak, and dev environments (NVM, npm, yarn, bun) — and updates everything in one shot.*
 
@@ -100,11 +100,11 @@ vardhaman = {
 
 [![View Repo](https://img.shields.io/badge/View%20Repo-Auto%20Updater-22C55E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VARDHAMANPATEL23/Linux-Auto-Updater-Script)
 
-```
+<pre>
 ╔═[ PROJECT 04 ]══════════════════════════════════════════════════════════════╗
 ║  🎨  DOTIFY CLIENT — Texture Image Converter                                ║
 ╚═════════════════════════════════════════════════════════════════════════════╝
-```
+</pre>
 
 > *A fork & contribution of an online image converter that transforms photos into stunning dot/texture-style art. No data saved, fully free, runs in the browser.*
 
@@ -118,11 +118,11 @@ vardhaman = {
 
 <br/>
 
-```
+<pre>
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃  ◈  TECH STACK                                                              ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
+</pre>
 
 <div align="center">
   <table>
@@ -167,11 +167,11 @@ vardhaman = {
 
 <br/>
 
-```
+<pre>
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃  ◈  GITHUB STATS                                                            ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
+</pre>
 
 <div align="center">
 
@@ -187,11 +187,11 @@ vardhaman = {
 
 <br/>
 
-```
+<pre>
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃  ◈  CONTRIBUTION GRAPH — GIT INVADERS                                       ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
+</pre>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/VARDHAMANPATEL23/VARDHAMANPATEL23/refs/heads/output/git-invader-green-dark.svg" alt="Git Invaders contribution graph" />
@@ -199,11 +199,11 @@ vardhaman = {
 
 <br/>
 
-```
+<pre>
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃  ◈  CONNECT                                                                 ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
+</pre>
 
 <div align="center">
 
