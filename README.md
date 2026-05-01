@@ -15,7 +15,7 @@
 <div align="center">
 
 <a href="https://github.com/VARDHAMANPATEL23">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=600&lines=AI+%2B+IoT+Builder+%F0%9F%A4%96;Linux+Systems+Hacker+%F0%9F%90%A7;Computer+Vision+Enthusiast+%F0%9F%91%81%EF%B8%8F;Always+building+something+new+%F0%9F%94%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=600&lines=AI+%2B+IoT+Builder;Linux+Systems+Hacker;Computer+Vision+Enthusiast;Always+building+something+new" alt="Typing SVG" />
 </a>
 
 <br/>
