@@ -21,9 +21,9 @@ jobs:
         with:
           github_token:    ${{ secrets.GITHUB_TOKEN }}
           github_username: ${{ github.repository_owner }}
-          output_dir:      dist
-          color:           green
-          mode:            dark
+          color:           
+          mode:            
+          ship:            rocket
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
