@@ -1,7 +1,7 @@
 <!-- markdownlint-disable -->
 
 <!-- ╔══════════════════════════════════════════════╗ -->
-<!--   HEADER — commit assets/header.svg to repo      -->
+<!--   HEADER                                         -->
 <!-- ╚══════════════════════════════════════════════╝ -->
 <div align="center">
 <img width="100%" src="./assets/header.svg" alt="Vardhaman Patel" />
@@ -28,11 +28,9 @@
 
 <br/>
 
-<pre>
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  ◈  SYSTEM IDENTITY                                                         ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-</pre>
+---
+
+### ◈ &nbsp;SYSTEM IDENTITY
 
 ```python
 vardhaman = {
@@ -46,86 +44,67 @@ vardhaman = {
 
 <br/>
 
-<pre>
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  ◈  ACTIVE PROJECTS                                            [4 DEPLOYED] ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-</pre>
+---
 
-<pre>
-╔═[ PROJECT 01 ]══════════════════════════════════════════════════════════════╗
-║  🪞  SMART MIRROR — IoT Information Hub                                     ║
-╚═════════════════════════════════════════════════════════════════════════════╝
-</pre>
+### ◈ &nbsp;ACTIVE PROJECTS &nbsp;`[4 DEPLOYED]`
 
-> *An IoT-based Smart Mirror that blends a traditional mirror with a digital display to show real-time updates like time, weather, and news — your morning briefing, built into your wall.*
-
-| Detail | Info |
-|---|---|
-| 🔧 **Stack** | Python · Raspberry Pi · REST APIs · OpenCV |
-| 💡 **Features** | Live weather · News feed · Clock · Face detection |
-| 🧩 **Category** | IoT · Embedded Systems · Home Automation |
-
-[![View Repo](https://img.shields.io/badge/View%20Repo-Smart%20Mirror-A78BFA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VARDHAMANPATEL23/Smart-Mirror)
-
-<pre>
-╔═[ PROJECT 02 ]══════════════════════════════════════════════════════════════╗
-║  🔐  LINUX FACEID — Biometric Auth via PAM                                  ║
-╚═════════════════════════════════════════════════════════════════════════════╝
-</pre>
-
-> *A Linux PAM module that brings Face ID to your terminal. Enables facial authentication for `sudo` and GDM lockscreen using blink-based liveness detection to prevent spoofing.*
-
-| Detail | Info |
-|---|---|
-| 🔧 **Stack** | C++ · Python · OpenCV · Dlib · Linux PAM |
-| 💡 **Features** | Face ID for `sudo` · GDM lockscreen · Liveness detection via eye-blink |
-| 🧩 **Category** | Cybersecurity · Computer Vision · Linux Systems |
-
-[![View Repo](https://img.shields.io/badge/View%20Repo-Linux%20FaceId-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VARDHAMANPATEL23/Linux-FaceId)
-
-<pre>
-╔═[ PROJECT 03 ]══════════════════════════════════════════════════════════════╗
-║  ⚡  LINUX AUTO UPDATER — One Script to Rule All                             ║
-╚═════════════════════════════════════════════════════════════════════════════╝
-</pre>
-
-> *A unified updater for Linux developers. Auto-detects your package manager (apt, dnf, pacman, etc.), Snap, Flatpak, and dev environments (NVM, npm, yarn, bun) — and updates everything in one shot.*
-
-| Detail | Info |
-|---|---|
-| 🔧 **Stack** | Bash · Shell scripting |
-| 💡 **Features** | Multi-distro support · Dev toolchain updates · Zero config |
-| 🧩 **Category** | DevOps · Linux Automation · Developer Tools |
-
-[![View Repo](https://img.shields.io/badge/View%20Repo-Auto%20Updater-22C55E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VARDHAMANPATEL23/Linux-Auto-Updater-Script)
-
-<pre>
-╔═[ PROJECT 04 ]══════════════════════════════════════════════════════════════╗
-║  🎨  DOTIFY CLIENT — Texture Image Converter                                ║
-╚═════════════════════════════════════════════════════════════════════════════╝
-</pre>
-
-> *A fork & contribution of an online image converter that transforms photos into stunning dot/texture-style art. No data saved, fully free, runs in the browser.*
-
-| Detail | Info |
-|---|---|
-| 🔧 **Stack** | TypeScript · Web APIs |
-| 💡 **Features** | In-browser processing · No data upload · Dot-texture rendering |
-| 🧩 **Category** | Creative Tools · Web App · Image Processing |
-
-[![View Repo](https://img.shields.io/badge/View%20Repo-Dotify%20Client-F59E0B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VARDHAMANPATEL23/dotify-client)
+<table align="center">
+  <tr>
+    <td width="50%" valign="top">
+      <b>PROJECT 01 — SMART MIRROR · IoT Information Hub</b><br/><br/>
+      <blockquote><em>An IoT-based Smart Mirror that blends a traditional mirror with a digital display to show real-time updates like time, weather, and news — your morning briefing, built into your wall.</em></blockquote>
+      <table width="100%">
+        <tr><td width="30%">🔧 <b>Stack</b></td><td>Python · Raspberry Pi · REST APIs · OpenCV</td></tr>
+        <tr><td>💡 <b>Features</b></td><td>Live weather · News feed · Clock · Face detection</td></tr>
+        <tr><td>🧩 <b>Category</b></td><td>IoT · Embedded Systems · Home Automation</td></tr>
+      </table><br/>
+      <a href="https://github.com/VARDHAMANPATEL23/Smart-Mirror"><img src="https://img.shields.io/badge/View%20Repo-Smart%20Mirror-A78BFA?style=for-the-badge&logo=github&logoColor=white" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <b>PROJECT 02 — LINUX FACEID · Biometric Auth via PAM</b><br/><br/>
+      <blockquote><em>A Linux PAM module that brings Face ID to your terminal. Enables facial authentication for sudo and GDM lockscreen using blink-based liveness detection to prevent spoofing.</em></blockquote>
+      <table width="100%">
+        <tr><td width="30%">🔧 <b>Stack</b></td><td>C++ · Python · OpenCV · Dlib · Linux PAM</td></tr>
+        <tr><td>💡 <b>Features</b></td><td>Face ID for sudo · GDM lockscreen · Liveness detection via eye-blink</td></tr>
+        <tr><td>🧩 <b>Category</b></td><td>Cybersecurity · Computer Vision · Linux Systems</td></tr>
+      </table><br/>
+      <a href="https://github.com/VARDHAMANPATEL23/Linux-FaceId"><img src="https://img.shields.io/badge/View%20Repo-Linux%20FaceId-6366F1?style=for-the-badge&logo=github&logoColor=white" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>PROJECT 03 — LINUX AUTO UPDATER · One Script to Rule All</b><br/><br/>
+      <blockquote><em>A unified updater for Linux developers. Auto-detects your package manager (apt, dnf, pacman, etc.), Snap, Flatpak, and dev environments (NVM, npm, yarn, bun) — and updates everything in one shot.</em></blockquote>
+      <table width="100%">
+        <tr><td width="30%">🔧 <b>Stack</b></td><td>Bash · Shell scripting</td></tr>
+        <tr><td>💡 <b>Features</b></td><td>Multi-distro support · Dev toolchain updates · Zero config</td></tr>
+        <tr><td>🧩 <b>Category</b></td><td>DevOps · Linux Automation · Developer Tools</td></tr>
+      </table><br/>
+      <a href="https://github.com/VARDHAMANPATEL23/Linux-Auto-Updater-Script"><img src="https://img.shields.io/badge/View%20Repo-Auto%20Updater-22C55E?style=for-the-badge&logo=github&logoColor=white" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <b>PROJECT 04 — DOTIFY CLIENT · Texture Image Converter</b><br/><br/>
+      <blockquote><em>A fork & contribution of an online image converter that transforms photos into stunning dot/texture-style art. No data saved, fully free, runs in the browser.</em></blockquote>
+      <table width="100%">
+        <tr><td width="30%">🔧 <b>Stack</b></td><td>TypeScript · Web APIs</td></tr>
+        <tr><td>💡 <b>Features</b></td><td>In-browser processing · No data upload · Dot-texture rendering</td></tr>
+        <tr><td>🧩 <b>Category</b></td><td>Creative Tools · Web App · Image Processing</td></tr>
+      </table><br/>
+      <a href="https://github.com/VARDHAMANPATEL23/dotify-client"><img src="https://img.shields.io/badge/View%20Repo-Dotify%20Client-F59E0B?style=for-the-badge&logo=github&logoColor=white" /></a>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-<pre>
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  ◈  TECH STACK                                                              ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-</pre>
+---
+
+### ◈ &nbsp;TECH STACK
+
+<br/>
 
 <div align="center">
-  <table>
+  <table align="center">
     <tr>
       <td align="center" width="50%">
         <b>Languages & Scripting</b><br><br>
@@ -167,11 +146,9 @@ vardhaman = {
 
 <br/>
 
-<pre>
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  ◈  GITHUB STATS                                                            ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-</pre>
+---
+
+### ◈ &nbsp;GITHUB STATS
 
 <div align="center">
 
@@ -187,23 +164,19 @@ vardhaman = {
 
 <br/>
 
-<pre>
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  ◈  CONTRIBUTION GRAPH — GIT INVADERS                                       ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-</pre>
+---
+
+### ◈ &nbsp;CONTRIBUTION GRAPH — GIT INVADERS
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/VARDHAMANPATEL23/VARDHAMANPATEL23/refs/heads/output/git-invader-orange-dark.svg" alt="Git Invaders contribution graph" />
+  <img width="100%" src="https://raw.githubusercontent.com/VARDHAMANPATEL23/VARDHAMANPATEL23/refs/heads/output/git-invader-orange-dark.svg" alt="Git Invaders contribution graph" />
 </div>
 
 <br/>
 
-<pre>
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  ◈  CONNECT                                                                 ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-</pre>
+---
+
+### ◈ &nbsp;CONNECT
 
 <div align="center">
 
@@ -215,7 +188,7 @@ vardhaman = {
 <br/>
 
 <!-- ╔══════════════════════════════════════════════╗ -->
-<!--   FOOTER — commit assets/footer.svg to repo      -->
+<!--   FOOTER                                         -->
 <!-- ╚══════════════════════════════════════════════╝ -->
 <div align="center">
 <img width="100%" src="./assets/footer.svg" alt="footer" />
