@@ -48,52 +48,45 @@ vardhaman = {
 
 ### ◈ &nbsp;ACTIVE PROJECTS &nbsp;`[4 DEPLOYED]`
 
-<table align="center">
-  <tr>
-    <td width="50%" valign="top">
-      <b>PROJECT 01 — SMART MIRROR · IoT Information Hub</b><br/><br/>
-      <blockquote><em>An IoT-based Smart Mirror that blends a traditional mirror with a digital display to show real-time updates like time, weather, and news — your morning briefing, built into your wall.</em></blockquote>
-      <table width="100%">
-        <tr><td width="30%">🔧 <b>Stack</b></td><td>Python · Raspberry Pi · REST APIs · OpenCV</td></tr>
-        <tr><td>💡 <b>Features</b></td><td>Live weather · News feed · Clock · Face detection</td></tr>
-        <tr><td>🧩 <b>Category</b></td><td>IoT · Embedded Systems · Home Automation</td></tr>
-      </table><br/>
-      <a href="https://github.com/VARDHAMANPATEL23/Smart-Mirror"><img src="https://img.shields.io/badge/View%20Repo-Smart%20Mirror-A78BFA?style=for-the-badge&logo=github&logoColor=white" /></a>
-    </td>
-    <td width="50%" valign="top">
-      <b>PROJECT 02 — LINUX FACEID · Biometric Auth via PAM</b><br/><br/>
-      <blockquote><em>A Linux PAM module that brings Face ID to your terminal. Enables facial authentication for sudo and GDM lockscreen using blink-based liveness detection to prevent spoofing.</em></blockquote>
-      <table width="100%">
-        <tr><td width="30%">🔧 <b>Stack</b></td><td>C++ · Python · OpenCV · Dlib · Linux PAM</td></tr>
-        <tr><td>💡 <b>Features</b></td><td>Face ID for sudo · GDM lockscreen · Liveness detection via eye-blink</td></tr>
-        <tr><td>🧩 <b>Category</b></td><td>Cybersecurity · Computer Vision · Linux Systems</td></tr>
-      </table><br/>
-      <a href="https://github.com/VARDHAMANPATEL23/Linux-FaceId"><img src="https://img.shields.io/badge/View%20Repo-Linux%20FaceId-6366F1?style=for-the-badge&logo=github&logoColor=white" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>PROJECT 03 — LINUX AUTO UPDATER · One Script to Rule All</b><br/><br/>
-      <blockquote><em>A unified updater for Linux developers. Auto-detects your package manager (apt, dnf, pacman, etc.), Snap, Flatpak, and dev environments (NVM, npm, yarn, bun) — and updates everything in one shot.</em></blockquote>
-      <table width="100%">
-        <tr><td width="30%">🔧 <b>Stack</b></td><td>Bash · Shell scripting</td></tr>
-        <tr><td>💡 <b>Features</b></td><td>Multi-distro support · Dev toolchain updates · Zero config</td></tr>
-        <tr><td>🧩 <b>Category</b></td><td>DevOps · Linux Automation · Developer Tools</td></tr>
-      </table><br/>
-      <a href="https://github.com/VARDHAMANPATEL23/Linux-Auto-Updater-Script"><img src="https://img.shields.io/badge/View%20Repo-Auto%20Updater-22C55E?style=for-the-badge&logo=github&logoColor=white" /></a>
-    </td>
-    <td width="50%" valign="top">
-      <b>PROJECT 04 — DOTIFY CLIENT · Texture Image Converter</b><br/><br/>
-      <blockquote><em>A fork & contribution of an online image converter that transforms photos into stunning dot/texture-style art. No data saved, fully free, runs in the browser.</em></blockquote>
-      <table width="100%">
-        <tr><td width="30%">🔧 <b>Stack</b></td><td>TypeScript · Web APIs</td></tr>
-        <tr><td>💡 <b>Features</b></td><td>In-browser processing · No data upload · Dot-texture rendering</td></tr>
-        <tr><td>🧩 <b>Category</b></td><td>Creative Tools · Web App · Image Processing</td></tr>
-      </table><br/>
-      <a href="https://github.com/VARDHAMANPATEL23/dotify-client"><img src="https://img.shields.io/badge/View%20Repo-Dotify%20Client-F59E0B?style=for-the-badge&logo=github&logoColor=white" /></a>
-    </td>
-  </tr>
-</table>
+<br/>
+
+**PROJECT 01 — SMART MIRROR · IoT Information Hub**
+
+> *An IoT-based Smart Mirror that blends a traditional mirror with a digital display to show real-time updates like time, weather, and news — your morning briefing, built into your wall.*
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-Smart%20Mirror-A78BFA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VARDHAMANPATEL23/Smart-Mirror)
+
+<br/>
+
+**PROJECT 02 — LINUX FACEID · Biometric Auth via PAM**
+
+> *A Linux PAM module that brings Face ID to your terminal. Enables facial authentication for `sudo` and GDM lockscreen using blink-based liveness detection to prevent spoofing.*
+
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![Linux PAM](https://img.shields.io/badge/Linux%20PAM-333333?style=for-the-badge&logo=linux&logoColor=white)
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-Linux%20FaceId-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VARDHAMANPATEL23/Linux-FaceId)
+
+<br/>
+
+**PROJECT 03 — LINUX AUTO UPDATER · One Script to Rule All**
+
+> *A unified updater for Linux developers. Auto-detects your package manager (apt, dnf, pacman, etc.), Snap, Flatpak, and dev environments (NVM, npm, yarn, bun) — and updates everything in one shot.*
+
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-Auto%20Updater-22C55E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VARDHAMANPATEL23/Linux-Auto-Updater-Script)
+
+<br/>
+
+**PROJECT 04 — DOTIFY CLIENT · Texture Image Converter**
+
+> *A fork & contribution of an online image converter that transforms photos into stunning dot/texture-style art. No data saved, fully free, runs in the browser.*
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-Dotify%20Client-F59E0B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VARDHAMANPATEL23/dotify-client)
 
 <br/>
 
