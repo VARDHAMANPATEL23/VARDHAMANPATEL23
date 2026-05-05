@@ -194,7 +194,7 @@ vardhaman = {
 </pre>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/VARDHAMANPATEL23/VARDHAMANPATEL23/refs/heads/output/git-invader-green-dark.svg" alt="Git Invaders contribution graph" />
+  <img src="https://raw.githubusercontent.com/VARDHAMANPATEL23/VARDHAMANPATEL23/refs/heads/output/git-invader-orange-dark.svg" alt="Git Invaders contribution graph" />
 </div>
 
 <br/>
