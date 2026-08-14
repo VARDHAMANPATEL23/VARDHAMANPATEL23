@@ -141,7 +141,7 @@ vardhaman = {
 
 ---
 
-### ◈ &nbsp;GITHUB STATS
+<!-- ### ◈ &nbsp;GITHUB STATS
 
 <div align="center">
 
@@ -157,7 +157,7 @@ vardhaman = {
 
 <br/>
 
----
+--- -->
 
 ### ◈ &nbsp;CONTRIBUTION GRAPH — GIT INVADERS
 
